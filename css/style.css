@@ -5,6 +5,7 @@ body{
 .box{
     background-color: blue;
     border: 1px solid;
+    min-height: 100px;
 }
 
 /**font reset  */
@@ -45,9 +46,11 @@ h4{
     padding: 200px 0 60px;
 }
 
+/**my_card utilitie */
 .game_cover{
     border-radius: 18px;
-    position: relative;
+    overflow: hidden;
+    border: none;
 }
 
 
@@ -64,3 +67,5 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/**new games section  */
