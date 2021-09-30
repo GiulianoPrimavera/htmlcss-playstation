@@ -2,6 +2,11 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.box{
+    background-color: blue;
+    border: 1px solid;
+}
+
 /**font reset  */
 h2{
     font-size: 2.5rem;
@@ -39,3 +44,7 @@ h4{
     padding: 200px 0 60px;
 }
 
+.game_cover{
+    border-radius: 18px;
+    position: relative;
+}
