@@ -25,6 +25,16 @@ h4{
     padding-bottom: 20px;
 }
 
+/**cards utilities  */
+.card.game_cover > img{
+    border-radius: inherit;
+}
+.card.game_cover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
 
 /**navbar  */
 .sony_logo_svg{
@@ -35,7 +45,6 @@ h4{
 .lens_svg{
     width: 25px;
 }
-
 
 /**hero  */
 .hero_container{
@@ -53,12 +62,10 @@ h4{
     border: none;
 }
 
-
 /**PS5 section  */
 .text_super{
     color: blue;
 }
-
 
 /**hero section 2 */
 .hero_2_container{
@@ -68,4 +75,4 @@ h4{
     background-size: cover;
 }
 
-/**new games section  */
+
