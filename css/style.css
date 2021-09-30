@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/**navbar  */
+.sony_logo_svg{
+    max-width: 90px;
+    padding: 10px;
+}
+
+.lens_svg{
+    width: 25px;
+}
