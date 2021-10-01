@@ -75,11 +75,11 @@ h5{
 /**my_card utilitie */
 .game_cover{
     border-radius: 18px;
-    border: none;
+    /* border: none; */
     position: relative;
     transition: transform 1s ease;
 }
-.game_cover:focus::before{
+.game_cover[tabindex]:focus::before {
     content: "";
     border: 2px solid rgb(45, 100, 230);
     position: absolute;
@@ -96,6 +96,16 @@ h5{
 /**PS5 section  */
 .text_super{
     color: rgb(45, 100, 230);
+}
+.ps5_products_section{
+    filter: opacity(.6);
+    transition: fitler 1s;
+}
+.ps5_products_section:hover{
+    filter: opacity(1);
+}
+.ps5_products_section:active{
+    border-bottom: 2px solid rgb(45, 100, 230);
 }
 
 /**hero section 2 */
