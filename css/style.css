@@ -82,6 +82,10 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hero_2_jumbo{
+    max-width: 300px;
+    width: 100%;
+}
 
 
 /** footer */
