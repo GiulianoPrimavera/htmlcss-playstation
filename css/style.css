@@ -75,8 +75,22 @@ h5{
 /**my_card utilitie */
 .game_cover{
     border-radius: 18px;
-    overflow: hidden;
     border: none;
+    position: relative;
+    transition: transform 1s ease;
+}
+.game_cover:focus::before{
+    content: "";
+    border: 2px solid rgb(45, 100, 230);
+    position: absolute;
+    border-radius: 18px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+} 
+.game_cover:hover{
+    transform: translateY(-8px);
 }
 
 /**PS5 section  */
