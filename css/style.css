@@ -102,6 +102,10 @@ h5{
 .ps_plus_section{
     background-color: rgb(190, 188, 187);
 }
+.ps_plus_logo{
+    max-width: 300px;
+    width: 75%;
+}
 
 /** ps now section */
 .ps_now_section{
