@@ -41,6 +41,8 @@ h5{
 .text_section{
     padding-bottom: 18px;
 }
+/** hover utilities */
+
 
 /**cards utilities  */
 .card.game_cover > img{
@@ -123,6 +125,7 @@ li{
     background-size: cover;
     padding: 200px 0 60px;
 }
+
 /* buy now button */
 .buynow_button_link{
     display: inline-block;
@@ -205,6 +208,26 @@ li{
 .new_games_section{
     background-color: rgb(31, 31, 31);
 }
+
+/** playstation 4 section  */
+.learn_more_button_link{
+    display: inline-block;
+    background-color: #0d6efd;
+    border-radius: 30px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+.learn_more_button_link:hover{
+    color: white;
+}
+.learn_more_button_container{
+    border: 2px solid #0d6efd;
+    padding: 2px 2px;
+}
+.learn_more_button_container:hover{
+    background-color: white;
+} 
 
 /** ps plus section */
 .ps_plus_section{
