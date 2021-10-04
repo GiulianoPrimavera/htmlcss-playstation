@@ -91,6 +91,26 @@ li{
 }
 
 
+/* log in button */
+.login_button_link{
+    display: inline-block;
+    background-color: #212529;
+    border-radius: 30px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+.login_button_link:hover{
+    color: white;
+}
+.login_button_container{
+    border: 2px solid #212529;
+    padding: 2px 2px;
+}
+.login_button_container:hover{
+    background-color: white;
+} 
+
 .lens_svg{
     width: 25px;
 }
