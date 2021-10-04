@@ -108,7 +108,7 @@ li{
     padding: 2px 2px;
 }
 .login_button_container:hover{
-    background-color: white;
+    background-color: transparent;
 } 
 
 .lens_svg{
@@ -123,6 +123,26 @@ li{
     background-size: cover;
     padding: 200px 0 60px;
 }
+/* buy now button */
+.buynow_button_link{
+    display: inline-block;
+    background-color: #ff0000;
+    border-radius: 30px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+.buynow_button_link:hover{
+    color: white;
+}
+.buynow_button_container{
+    border: 2px solid #ff0000;
+    padding: 2px 2px;
+}
+.buynow_button_container:hover{
+    background-color: transparent;
+} 
+
 
 /**my_card utilitie */
 .game_cover{
