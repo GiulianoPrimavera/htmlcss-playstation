@@ -1,0 +1,72 @@
+.hero_container{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+}
+
+h3, p{
+    color: white;
+}
+
+
+.game_cover{
+    width: 300px;
+    height: 300px;
+    object-position: top;
+    object-fit: cover;
+    box-shadow: 0 0 50px black;
+}
+.my_button_container{
+    padding: 10px;
+    background-color: blue;
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my_button_link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.my_button_link:hover{
+    color: black;
+}
+.game_description{
+    height: 100px;
+    overflow: auto;
+}
+
+/* game screenshots */
+.game_screenshots{
+   height: 500px;
+    background-color: blue;
+    overflow: auto;
+}
+.screenshot_box{
+    height: 100px;
+    background-color: red;
+}
+
+/* lookalike games */
+.look_alike_games{
+    padding: 20px 0;
+}
+.games_container{
+    display: inline-block;
+    padding: 0 5px;
+}
+.look_alike_box{
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+}
+.look_alike_scroll{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+}
