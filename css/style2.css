@@ -1,12 +1,12 @@
-.hero_container{
+body{
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 40px;
+    background-attachment:fixed;
 }
-
 h3, p{
     color: white;
 }
@@ -24,7 +24,7 @@ h3, p{
     background-color: blue;
     width: 300px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 .my_button_link{
@@ -34,10 +34,6 @@ h3, p{
 }
 .my_button_link:hover{
     color: black;
-}
-.game_description{
-    height: 100px;
-    overflow: auto;
 }
 
 /* game screenshots */
