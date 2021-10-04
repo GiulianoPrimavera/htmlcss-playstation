@@ -253,6 +253,25 @@ li{
     max-width: 300px;
     width: 75%;
 }
+/* ps now button */
+.ps_now_button_link{
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+.ps_now_button_link:hover{
+    color: black;
+}
+.ps_now_button_container{
+    border: 2px solid #212529;
+    padding: 2px 2px;
+}
+.ps_now_button_container:hover{
+    background-color: transparent;
+} 
 
 /** footer */
 .footer_section {
