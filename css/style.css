@@ -9,11 +9,7 @@ body{
 }
 
 /** color resets */
-.ps_plus_button{
-    color: #0072ce;
-    background-color: #D9DADC;
-    border: none;
-}
+
 /**font reset  */
 h2{
     font-size: 2.5rem;
@@ -236,6 +232,17 @@ li{
 .ps_plus_logo{
     max-width: 300px;
     width: 75%;
+}
+.ps_plus_button_container{
+    background-color: #D9DADC; 
+    border: none;  
+}
+.ps_plus_button_container:hover{
+    background-color: #D9DADC;
+    box-shadow: 0 0 5px #D9DADC;
+}
+.ps_plus_button_link{
+    text-decoration: none;
 }
 
 
