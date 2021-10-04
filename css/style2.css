@@ -39,13 +39,12 @@ h3, h5, p{
 /* game screenshots */
 .game_screenshots{
     height: 500px;
-    background-color: blue;
     overflow: auto;
     margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .screenshot_box{
     height: 100px;
-    background-color: red;
 }
 
 /* lookalike games */
