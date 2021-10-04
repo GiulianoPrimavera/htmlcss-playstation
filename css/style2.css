@@ -22,9 +22,9 @@ h3, p{
 .my_button_container{
     padding: 10px;
     background-color: blue;
-    margin-top: 50px;
     width: 300px;
     text-align: center;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .my_button_link{
@@ -42,9 +42,10 @@ h3, p{
 
 /* game screenshots */
 .game_screenshots{
-   height: 500px;
+    height: 500px;
     background-color: blue;
     overflow: auto;
+    margin: 10px 0;
 }
 .screenshot_box{
     height: 100px;
